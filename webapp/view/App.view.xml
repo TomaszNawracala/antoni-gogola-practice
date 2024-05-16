@@ -6,7 +6,7 @@ xmlns:mvc="sap.ui.core.mvc">
 text="Say Hello"
 press=".onShowHello"/>
 <Input
-    value="{/recipient/name}"
+    value="{i18n>showHelloButtonText}"
     description="Hello {/recipient/name}"
     valueLiveUpdate="true"
     width="60%"/>
