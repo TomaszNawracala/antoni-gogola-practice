@@ -2,7 +2,6 @@
 controllerName="ui5.walkthrough.controller.App"
 xmlns="sap.m"
 xmlns:mvc="sap.ui.core.mvc">
-<Text text="Hello Word"/>
 <Button 
 text="Say Hello"
 press=".onShowHello"/>
