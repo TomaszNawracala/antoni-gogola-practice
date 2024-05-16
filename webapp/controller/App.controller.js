@@ -1,7 +1,8 @@
 sap.ui.define([
     "sap/ui/core/mvc/Controller",
-    "sap/m/MessageToast"
-], (Controller, MessageToast) => {
+    "sap/m/MessageToast",
+    "sap/ui/model/json/JSONModel"
+], (Controller, MessageToast, JSONModel) => {
     "use strict";
     return Controller.extend("ui5.walkthrough.controller.App", {
         onInit() {
@@ -15,7 +16,7 @@ sap.ui.define([
             this.getView().setModel(oModel);
         },
 
-        onShowHello: function() {
+        onShowHello() {
             MessageToast.show("Hello World");
         }
     });
