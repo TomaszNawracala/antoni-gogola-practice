@@ -1,5 +1,5 @@
 sap.ui.define([
-	"sap/ui/core/componentContainer",
+	"sap/ui/core/ComponentContainer",
 ], (componentContainer) => {
 	"use strict";
 
