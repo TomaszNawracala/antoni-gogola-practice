@@ -3,7 +3,7 @@ sap.ui.define([
 ], (componentContainer) => {
 	"use strict";
 
-	new componentContainer({
+	new ComponentContainer({
 		name: "ui5.walkthrough",
 		settings: {
 			id: "walkthrough"
