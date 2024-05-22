@@ -4,7 +4,7 @@
 	xmlns:mvc="sap.ui.core.mvc"
 	displayBlock="true">
 	<Shell>
-		<App>
+		<App class="myAppDemoWT">
 			<pages>
 				<Page title="{i18n>homePageTitle}">
 					<content>
@@ -15,7 +15,8 @@
 							<content>
 								<Button
 									text="{i18n>showHelloButtonText}"
-									press=".onShowHello"/>
+									press=".onShowHello"
+									class="myCustomButton"/>
 								<Input
 									value="{/recipient/name}"
 									description="Hello {/recipient/name}"
