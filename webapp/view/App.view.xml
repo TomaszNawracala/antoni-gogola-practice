@@ -13,18 +13,7 @@
                             class="sapUiResponsiveMargin"
                             width="auto">
 							<content>
-								<Button
-									text="{i18n>showHelloButtonText}"
-									press=".onShowHello"
-									class="myCustomButton"/>
-								<Input
-									value="{/recipient/name}"
-									description="Hello {/recipient/name}"
-									valueLiveUpdate="true"
-									width="60%"/>
-                                <FormattedText 
-                                    htmlText="Hello {/recipient/name}"
-									class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
+								<mvc:XMLView viewName="ui5.walkthrough.view.HelloPanel"/>
 							</content>
 						</Panel>
 					</content>
